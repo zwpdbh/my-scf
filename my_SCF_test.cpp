@@ -19,6 +19,17 @@ int main() {
     return 0;
 }
 
+/**Test the SCF algorithm described in tang xiaoxin's paper:
+ * step 1: create index structure
+ * step 2: create partial distance of the query feature
+ * step 3: estimate the distance = sum of all estimated partial distance in
+ * every subspace.
+ */
+void test_example_from_SCF_paper() {
+    /**divide the dataset into different subspace and apply k-means for subspace
+     * clustering*/
+}
+
 /**Test the functionality of extract image features from opencv.The features
  * extracted is a Mat which is 128 dimension * the number of features.*/
 void test_descriptor_from_opencv() {
