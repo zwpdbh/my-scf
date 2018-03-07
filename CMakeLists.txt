@@ -35,3 +35,11 @@ add_executable(
         opencv_SIFT_with_flann.cpp
 )
 target_link_libraries(opencv_SIFT_with_flann PUBLIC opencv_flann)
+
+
+add_executable(
+        my_SCF_test
+        my_SCF_test.cpp
+)
+target_link_libraries(my_SCF_test PUBLIC flann omp)
+target_compile_options(my_SCF_test PUBLIC -fopenmp)

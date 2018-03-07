@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named my_SCF_test
+
+# Build rule for target.
+my_SCF_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_SCF_test
+.PHONY : my_SCF_test
+
+# fast build rule for target.
+my_SCF_test/fast:
+	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/build
+.PHONY : my_SCF_test/fast
+
+#=============================================================================
 # Target rules for targets named opencv_SIFT_with_flann
 
 # Build rule for target.
@@ -122,6 +135,33 @@ opencv_SIFT_with_flann: cmake_check_build_system
 opencv_SIFT_with_flann/fast:
 	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/build
 .PHONY : opencv_SIFT_with_flann/fast
+
+my_SCF_test.o: my_SCF_test.cpp.o
+
+.PHONY : my_SCF_test.o
+
+# target to build an object file
+my_SCF_test.cpp.o:
+	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/my_SCF_test.cpp.o
+.PHONY : my_SCF_test.cpp.o
+
+my_SCF_test.i: my_SCF_test.cpp.i
+
+.PHONY : my_SCF_test.i
+
+# target to preprocess a source file
+my_SCF_test.cpp.i:
+	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/my_SCF_test.cpp.i
+.PHONY : my_SCF_test.cpp.i
+
+my_SCF_test.s: my_SCF_test.cpp.s
+
+.PHONY : my_SCF_test.s
+
+# target to generate assembly for a file
+my_SCF_test.cpp.s:
+	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/my_SCF_test.cpp.s
+.PHONY : my_SCF_test.cpp.s
 
 opencv_SIFT_with_flann.o: opencv_SIFT_with_flann.cpp.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... my_SCF_test"
 	@echo "... opencv_SIFT_with_flann"
+	@echo "... my_SCF_test.o"
+	@echo "... my_SCF_test.i"
+	@echo "... my_SCF_test.s"
 	@echo "... opencv_SIFT_with_flann.o"
 	@echo "... opencv_SIFT_with_flann.i"
 	@echo "... opencv_SIFT_with_flann.s"

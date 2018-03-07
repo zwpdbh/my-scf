@@ -1,6 +1,11 @@
 [
 {
   "directory": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/usr/local/include -I/usr/local/Cellar/glib/2.54.3/include/glib-2.0 -I/usr/local/Cellar/glib/2.54.3/lib/glib-2.0/include    -fopenmp -std=gnu++11 -o CMakeFiles/my_SCF_test.dir/my_SCF_test.cpp.o -c /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/my_SCF_test.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/my_SCF_test.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build",
   "command": "/usr/local/opt/llvm/bin/clang++   -I/usr/local/include -I/usr/local/Cellar/glib/2.54.3/include/glib-2.0 -I/usr/local/Cellar/glib/2.54.3/lib/glib-2.0/include    -std=gnu++11 -o CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.o -c /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/opencv_SIFT_with_flann.cpp",
   "file": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/opencv_SIFT_with_flann.cpp"
 }
