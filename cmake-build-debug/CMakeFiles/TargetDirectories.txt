@@ -1,4 +1,5 @@
 /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles/brute_force_kNN.dir
 /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles/my_SCF_test.dir
 /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles/opencv_SIFT_with_flann.dir

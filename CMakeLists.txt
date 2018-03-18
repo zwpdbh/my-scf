@@ -43,3 +43,13 @@ add_executable(
 )
 target_link_libraries(my_SCF_test PUBLIC flann omp)
 target_compile_options(my_SCF_test PUBLIC -fopenmp)
+
+
+add_executable(
+        brute_force_kNN
+        brute_force_kNN.cpp
+        kNN.hpp
+        kNN.cpp
+)
+target_link_libraries(brute_force_kNN PUBLIC omp)
+target_compile_options(brute_force_kNN PUBLIC -fopenmp)

@@ -10,7 +10,8 @@
                 "/usr/include",
                 "/usr/local/Cellar/glib/2.54.3/include/glib-2.0/",
                 "/usr/local/Cellar/glib/2.54.3/lib/glib-2.0/include/",
-                "${workspaceRoot}"
+                "${workspaceRoot}",
+                "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT"
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",
@@ -23,7 +24,8 @@
                     "/usr/include",
                     "/usr/local/Cellar/glib/2.54.3/include/glib-2.0/",
                     "/usr/local/Cellar/glib/2.54.3/lib/glib-2.0/include/",
-                    "${workspaceRoot}"
+                    "${workspaceRoot}",
+                    "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
@@ -38,7 +40,8 @@
             "includePath": [
                 "/usr/include",
                 "/usr/local/include",
-                "${workspaceRoot}"
+                "${workspaceRoot}",
+                "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT"
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",
@@ -46,7 +49,8 @@
                 "path": [
                     "/usr/include",
                     "/usr/local/include",
-                    "${workspaceRoot}"
+                    "${workspaceRoot}",
+                    "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""

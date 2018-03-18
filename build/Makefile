@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named brute_force_kNN
+
+# Build rule for target.
+brute_force_kNN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 brute_force_kNN
+.PHONY : brute_force_kNN
+
+# fast build rule for target.
+brute_force_kNN/fast:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/build
+.PHONY : brute_force_kNN/fast
+
+#=============================================================================
 # Target rules for targets named my_SCF_test
 
 # Build rule for target.
@@ -135,6 +148,60 @@ opencv_SIFT_with_flann: cmake_check_build_system
 opencv_SIFT_with_flann/fast:
 	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/build
 .PHONY : opencv_SIFT_with_flann/fast
+
+brute_force_kNN.o: brute_force_kNN.cpp.o
+
+.PHONY : brute_force_kNN.o
+
+# target to build an object file
+brute_force_kNN.cpp.o:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/brute_force_kNN.cpp.o
+.PHONY : brute_force_kNN.cpp.o
+
+brute_force_kNN.i: brute_force_kNN.cpp.i
+
+.PHONY : brute_force_kNN.i
+
+# target to preprocess a source file
+brute_force_kNN.cpp.i:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/brute_force_kNN.cpp.i
+.PHONY : brute_force_kNN.cpp.i
+
+brute_force_kNN.s: brute_force_kNN.cpp.s
+
+.PHONY : brute_force_kNN.s
+
+# target to generate assembly for a file
+brute_force_kNN.cpp.s:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/brute_force_kNN.cpp.s
+.PHONY : brute_force_kNN.cpp.s
+
+kNN.o: kNN.cpp.o
+
+.PHONY : kNN.o
+
+# target to build an object file
+kNN.cpp.o:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/kNN.cpp.o
+.PHONY : kNN.cpp.o
+
+kNN.i: kNN.cpp.i
+
+.PHONY : kNN.i
+
+# target to preprocess a source file
+kNN.cpp.i:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/kNN.cpp.i
+.PHONY : kNN.cpp.i
+
+kNN.s: kNN.cpp.s
+
+.PHONY : kNN.s
+
+# target to generate assembly for a file
+kNN.cpp.s:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/kNN.cpp.s
+.PHONY : kNN.cpp.s
 
 my_SCF_test.o: my_SCF_test.cpp.o
 
@@ -198,8 +265,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... brute_force_kNN"
 	@echo "... my_SCF_test"
 	@echo "... opencv_SIFT_with_flann"
+	@echo "... brute_force_kNN.o"
+	@echo "... brute_force_kNN.i"
+	@echo "... brute_force_kNN.s"
+	@echo "... kNN.o"
+	@echo "... kNN.i"
+	@echo "... kNN.s"
 	@echo "... my_SCF_test.o"
 	@echo "... my_SCF_test.i"
 	@echo "... my_SCF_test.s"

@@ -52,14 +52,19 @@ int main(int argc, char* argv[]) {
     drawKeypoints(img02, keypoints_of_img02, result_img02, Scalar::all(0),
                   DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
 
-    //    imshow("SIFT result on image 01", result_img01);
-    //    imshow("SIFT result on image 02", result_img02);
+    cout << descriptors_of_img01.row(0).size() << endl;
+
+        imshow("SIFT result on image 01", result_img01);
+        imshow("SIFT result on image 02", result_img02);
 
     // use opencv flann to to the match
+    
     cv::FlannBasedMatcher matcher;
     std::vector<DMatch>   matches;
     matcher.cv::FlannBasedMatcher::match(descriptors_of_img01,
                                          descriptor_of_img02, matches);
+
+
 
     double max_dist = 0;
     double min_dist = 100;
@@ -72,6 +77,7 @@ int main(int argc, char* argv[]) {
     }
 
     std::vector<DMatch> good_matches;
+
     for (int i = 0; i < descriptors_of_img01.rows; i++) {
         if (matches[i].distance <= max(2 * min_dist, 0.02)) {
             good_matches.push_back(matches[i]);
@@ -82,6 +88,7 @@ int main(int argc, char* argv[]) {
     cv::drawMatches(img01, keypoints_of_img01, img02, keypoints_of_img02,
                     good_matches, img_matches, Scalar::all(-1), Scalar::all(-1),
                     vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS);
+
     imshow("Good matches", img_matches);
     for (int i = 0; i < (int)good_matches.size(); i++) {
         printf("-- Good Match [%d] Keypoint 1: %d  -- Keypoint 2: %d  \n", i,

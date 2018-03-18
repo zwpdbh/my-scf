@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT
 CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/brute_force_kNN.dir
+
+# All Build rule for target.
+CMakeFiles/brute_force_kNN.dir/all:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/depend
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target brute_force_kNN"
+.PHONY : CMakeFiles/brute_force_kNN.dir/all
+
+# Include target in all.
+all: CMakeFiles/brute_force_kNN.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/brute_force_kNN.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/brute_force_kNN.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/brute_force_kNN.dir/rule
+
+# Convenience name for target.
+brute_force_kNN: CMakeFiles/brute_force_kNN.dir/rule
+
+.PHONY : brute_force_kNN
+
+# clean rule for target.
+CMakeFiles/brute_force_kNN.dir/clean:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/clean
+.PHONY : CMakeFiles/brute_force_kNN.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/brute_force_kNN.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/my_SCF_test.dir
 
 # All Build rule for target.
 CMakeFiles/my_SCF_test.dir/all:
 	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/depend
 	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target my_SCF_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target my_SCF_test"
 .PHONY : CMakeFiles/my_SCF_test.dir/all
 
 # Include target in all.
@@ -103,7 +140,7 @@ clean: CMakeFiles/my_SCF_test.dir/clean
 CMakeFiles/opencv_SIFT_with_flann.dir/all:
 	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/depend
 	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target opencv_SIFT_with_flann"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target opencv_SIFT_with_flann"
 .PHONY : CMakeFiles/opencv_SIFT_with_flann.dir/all
 
 # Include target in all.
