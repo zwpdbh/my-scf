@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.o  -o ../bin/opencv_SIFT_with_flann -lopencv_core -lopencv_highgui -lopencv_features2d -lopencv_xfeatures2d -lopencv_imgproc -lopencv_imgcodecs -lopencv_flann 

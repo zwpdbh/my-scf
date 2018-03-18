@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.0)
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
+cmake_minimum_required(VERSION 3.5)
 project(Parallel_kNN_with_SIFT)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_C_COMPILER /usr/local/opt/llvm/bin/clang)
 set(CMAKE_CXX_COMPILER /usr/local/opt/llvm/bin/clang++)

@@ -28,6 +28,8 @@ int main() {
 void test_example_from_SCF_paper() {
     /**divide the dataset into different subspace and apply k-means for subspace
      * clustering*/
+
+    
 }
 
 /**Test the functionality of extract image features from opencv.The features
