@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named brute_force_kNN
-
-# Build rule for target.
-brute_force_kNN: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 brute_force_kNN
-.PHONY : brute_force_kNN
-
-# fast build rule for target.
-brute_force_kNN/fast:
-	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/build
-.PHONY : brute_force_kNN/fast
-
-#=============================================================================
 # Target rules for targets named my_SCF_test
 
 # Build rule for target.
@@ -137,6 +124,32 @@ my_SCF_test/fast:
 .PHONY : my_SCF_test/fast
 
 #=============================================================================
+# Target rules for targets named data_filtering
+
+# Build rule for target.
+data_filtering: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 data_filtering
+.PHONY : data_filtering
+
+# fast build rule for target.
+data_filtering/fast:
+	$(MAKE) -f CMakeFiles/data_filtering.dir/build.make CMakeFiles/data_filtering.dir/build
+.PHONY : data_filtering/fast
+
+#=============================================================================
+# Target rules for targets named brute_force_kNN
+
+# Build rule for target.
+brute_force_kNN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 brute_force_kNN
+.PHONY : brute_force_kNN
+
+# fast build rule for target.
+brute_force_kNN/fast:
+	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/build
+.PHONY : brute_force_kNN/fast
+
+#=============================================================================
 # Target rules for targets named opencv_SIFT_with_flann
 
 # Build rule for target.
@@ -148,6 +161,33 @@ opencv_SIFT_with_flann: cmake_check_build_system
 opencv_SIFT_with_flann/fast:
 	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/build
 .PHONY : opencv_SIFT_with_flann/fast
+
+SCF_main.o: SCF_main.cpp.o
+
+.PHONY : SCF_main.o
+
+# target to build an object file
+SCF_main.cpp.o:
+	$(MAKE) -f CMakeFiles/data_filtering.dir/build.make CMakeFiles/data_filtering.dir/SCF_main.cpp.o
+.PHONY : SCF_main.cpp.o
+
+SCF_main.i: SCF_main.cpp.i
+
+.PHONY : SCF_main.i
+
+# target to preprocess a source file
+SCF_main.cpp.i:
+	$(MAKE) -f CMakeFiles/data_filtering.dir/build.make CMakeFiles/data_filtering.dir/SCF_main.cpp.i
+.PHONY : SCF_main.cpp.i
+
+SCF_main.s: SCF_main.cpp.s
+
+.PHONY : SCF_main.s
+
+# target to generate assembly for a file
+SCF_main.cpp.s:
+	$(MAKE) -f CMakeFiles/data_filtering.dir/build.make CMakeFiles/data_filtering.dir/SCF_main.cpp.s
+.PHONY : SCF_main.cpp.s
 
 brute_force_kNN.o: brute_force_kNN.cpp.o
 
@@ -264,10 +304,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... my_SCF_test"
+	@echo "... data_filtering"
 	@echo "... edit_cache"
 	@echo "... brute_force_kNN"
-	@echo "... my_SCF_test"
 	@echo "... opencv_SIFT_with_flann"
+	@echo "... SCF_main.o"
+	@echo "... SCF_main.i"
+	@echo "... SCF_main.s"
 	@echo "... brute_force_kNN.o"
 	@echo "... brute_force_kNN.i"
 	@echo "... brute_force_kNN.s"

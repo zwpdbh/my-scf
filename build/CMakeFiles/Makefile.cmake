@@ -44,7 +44,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/brute_force_kNN.dir/DependInfo.cmake"
   "CMakeFiles/my_SCF_test.dir/DependInfo.cmake"
+  "CMakeFiles/data_filtering.dir/DependInfo.cmake"
+  "CMakeFiles/brute_force_kNN.dir/DependInfo.cmake"
   "CMakeFiles/opencv_SIFT_with_flann.dir/DependInfo.cmake"
   )

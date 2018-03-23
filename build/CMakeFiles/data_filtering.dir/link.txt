@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/data_filtering.dir/SCF_main.cpp.o  -o ../bin/data_filtering -lopencv_core -lopencv_highgui -lopencv_features2d -lopencv_xfeatures2d -lopencv_imgproc -lopencv_imgcodecs -lomp 

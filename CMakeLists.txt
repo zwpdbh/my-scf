@@ -53,3 +53,11 @@ add_executable(
 )
 target_link_libraries(brute_force_kNN PUBLIC omp)
 target_compile_options(brute_force_kNN PUBLIC -fopenmp)
+
+
+add_executable(
+        data_filtering
+        SCF_main.cpp
+)
+target_link_libraries(data_filtering PUBLIC omp)
+target_compile_options(data_filtering PUBLIC -fopenmp)
