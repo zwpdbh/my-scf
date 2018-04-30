@@ -1,1 +1,0 @@
-/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/my_SCF_test.dir/my_SCF_test.cpp.o  -o ../bin/my_SCF_test -lopencv_core -lopencv_highgui -lopencv_features2d -lopencv_xfeatures2d -lopencv_imgproc -lopencv_imgcodecs -lflann -lomp 

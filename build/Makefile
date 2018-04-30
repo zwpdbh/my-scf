@@ -111,110 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named my_SCF_test
+# Target rules for targets named parallel_numa
 
 # Build rule for target.
-my_SCF_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_SCF_test
-.PHONY : my_SCF_test
+parallel_numa: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 parallel_numa
+.PHONY : parallel_numa
 
 # fast build rule for target.
-my_SCF_test/fast:
-	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/build
-.PHONY : my_SCF_test/fast
+parallel_numa/fast:
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/build
+.PHONY : parallel_numa/fast
 
-#=============================================================================
-# Target rules for targets named data_filtering
+Dataset.o: Dataset.cpp.o
 
-# Build rule for target.
-data_filtering: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 data_filtering
-.PHONY : data_filtering
-
-# fast build rule for target.
-data_filtering/fast:
-	$(MAKE) -f CMakeFiles/data_filtering.dir/build.make CMakeFiles/data_filtering.dir/build
-.PHONY : data_filtering/fast
-
-#=============================================================================
-# Target rules for targets named brute_force_kNN
-
-# Build rule for target.
-brute_force_kNN: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 brute_force_kNN
-.PHONY : brute_force_kNN
-
-# fast build rule for target.
-brute_force_kNN/fast:
-	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/build
-.PHONY : brute_force_kNN/fast
-
-#=============================================================================
-# Target rules for targets named opencv_SIFT_with_flann
-
-# Build rule for target.
-opencv_SIFT_with_flann: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_SIFT_with_flann
-.PHONY : opencv_SIFT_with_flann
-
-# fast build rule for target.
-opencv_SIFT_with_flann/fast:
-	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/build
-.PHONY : opencv_SIFT_with_flann/fast
-
-SCF_main.o: SCF_main.cpp.o
-
-.PHONY : SCF_main.o
+.PHONY : Dataset.o
 
 # target to build an object file
-SCF_main.cpp.o:
-	$(MAKE) -f CMakeFiles/data_filtering.dir/build.make CMakeFiles/data_filtering.dir/SCF_main.cpp.o
-.PHONY : SCF_main.cpp.o
+Dataset.cpp.o:
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/Dataset.cpp.o
+.PHONY : Dataset.cpp.o
 
-SCF_main.i: SCF_main.cpp.i
+Dataset.i: Dataset.cpp.i
 
-.PHONY : SCF_main.i
-
-# target to preprocess a source file
-SCF_main.cpp.i:
-	$(MAKE) -f CMakeFiles/data_filtering.dir/build.make CMakeFiles/data_filtering.dir/SCF_main.cpp.i
-.PHONY : SCF_main.cpp.i
-
-SCF_main.s: SCF_main.cpp.s
-
-.PHONY : SCF_main.s
-
-# target to generate assembly for a file
-SCF_main.cpp.s:
-	$(MAKE) -f CMakeFiles/data_filtering.dir/build.make CMakeFiles/data_filtering.dir/SCF_main.cpp.s
-.PHONY : SCF_main.cpp.s
-
-brute_force_kNN.o: brute_force_kNN.cpp.o
-
-.PHONY : brute_force_kNN.o
-
-# target to build an object file
-brute_force_kNN.cpp.o:
-	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/brute_force_kNN.cpp.o
-.PHONY : brute_force_kNN.cpp.o
-
-brute_force_kNN.i: brute_force_kNN.cpp.i
-
-.PHONY : brute_force_kNN.i
+.PHONY : Dataset.i
 
 # target to preprocess a source file
-brute_force_kNN.cpp.i:
-	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/brute_force_kNN.cpp.i
-.PHONY : brute_force_kNN.cpp.i
+Dataset.cpp.i:
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/Dataset.cpp.i
+.PHONY : Dataset.cpp.i
 
-brute_force_kNN.s: brute_force_kNN.cpp.s
+Dataset.s: Dataset.cpp.s
 
-.PHONY : brute_force_kNN.s
+.PHONY : Dataset.s
 
 # target to generate assembly for a file
-brute_force_kNN.cpp.s:
-	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/brute_force_kNN.cpp.s
-.PHONY : brute_force_kNN.cpp.s
+Dataset.cpp.s:
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/Dataset.cpp.s
+.PHONY : Dataset.cpp.s
 
 kNN.o: kNN.cpp.o
 
@@ -222,7 +156,7 @@ kNN.o: kNN.cpp.o
 
 # target to build an object file
 kNN.cpp.o:
-	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/kNN.cpp.o
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/kNN.cpp.o
 .PHONY : kNN.cpp.o
 
 kNN.i: kNN.cpp.i
@@ -231,7 +165,7 @@ kNN.i: kNN.cpp.i
 
 # target to preprocess a source file
 kNN.cpp.i:
-	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/kNN.cpp.i
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/kNN.cpp.i
 .PHONY : kNN.cpp.i
 
 kNN.s: kNN.cpp.s
@@ -240,62 +174,35 @@ kNN.s: kNN.cpp.s
 
 # target to generate assembly for a file
 kNN.cpp.s:
-	$(MAKE) -f CMakeFiles/brute_force_kNN.dir/build.make CMakeFiles/brute_force_kNN.dir/kNN.cpp.s
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/kNN.cpp.s
 .PHONY : kNN.cpp.s
 
-my_SCF_test.o: my_SCF_test.cpp.o
+parallel_numa.o: parallel_numa.cpp.o
 
-.PHONY : my_SCF_test.o
-
-# target to build an object file
-my_SCF_test.cpp.o:
-	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/my_SCF_test.cpp.o
-.PHONY : my_SCF_test.cpp.o
-
-my_SCF_test.i: my_SCF_test.cpp.i
-
-.PHONY : my_SCF_test.i
-
-# target to preprocess a source file
-my_SCF_test.cpp.i:
-	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/my_SCF_test.cpp.i
-.PHONY : my_SCF_test.cpp.i
-
-my_SCF_test.s: my_SCF_test.cpp.s
-
-.PHONY : my_SCF_test.s
-
-# target to generate assembly for a file
-my_SCF_test.cpp.s:
-	$(MAKE) -f CMakeFiles/my_SCF_test.dir/build.make CMakeFiles/my_SCF_test.dir/my_SCF_test.cpp.s
-.PHONY : my_SCF_test.cpp.s
-
-opencv_SIFT_with_flann.o: opencv_SIFT_with_flann.cpp.o
-
-.PHONY : opencv_SIFT_with_flann.o
+.PHONY : parallel_numa.o
 
 # target to build an object file
-opencv_SIFT_with_flann.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.o
-.PHONY : opencv_SIFT_with_flann.cpp.o
+parallel_numa.cpp.o:
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/parallel_numa.cpp.o
+.PHONY : parallel_numa.cpp.o
 
-opencv_SIFT_with_flann.i: opencv_SIFT_with_flann.cpp.i
+parallel_numa.i: parallel_numa.cpp.i
 
-.PHONY : opencv_SIFT_with_flann.i
+.PHONY : parallel_numa.i
 
 # target to preprocess a source file
-opencv_SIFT_with_flann.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.i
-.PHONY : opencv_SIFT_with_flann.cpp.i
+parallel_numa.cpp.i:
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/parallel_numa.cpp.i
+.PHONY : parallel_numa.cpp.i
 
-opencv_SIFT_with_flann.s: opencv_SIFT_with_flann.cpp.s
+parallel_numa.s: parallel_numa.cpp.s
 
-.PHONY : opencv_SIFT_with_flann.s
+.PHONY : parallel_numa.s
 
 # target to generate assembly for a file
-opencv_SIFT_with_flann.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv_SIFT_with_flann.dir/build.make CMakeFiles/opencv_SIFT_with_flann.dir/opencv_SIFT_with_flann.cpp.s
-.PHONY : opencv_SIFT_with_flann.cpp.s
+parallel_numa.cpp.s:
+	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/parallel_numa.cpp.s
+.PHONY : parallel_numa.cpp.s
 
 # Help Target
 help:
@@ -304,26 +211,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... my_SCF_test"
-	@echo "... data_filtering"
 	@echo "... edit_cache"
-	@echo "... brute_force_kNN"
-	@echo "... opencv_SIFT_with_flann"
-	@echo "... SCF_main.o"
-	@echo "... SCF_main.i"
-	@echo "... SCF_main.s"
-	@echo "... brute_force_kNN.o"
-	@echo "... brute_force_kNN.i"
-	@echo "... brute_force_kNN.s"
+	@echo "... parallel_numa"
+	@echo "... Dataset.o"
+	@echo "... Dataset.i"
+	@echo "... Dataset.s"
 	@echo "... kNN.o"
 	@echo "... kNN.i"
 	@echo "... kNN.s"
-	@echo "... my_SCF_test.o"
-	@echo "... my_SCF_test.i"
-	@echo "... my_SCF_test.s"
-	@echo "... opencv_SIFT_with_flann.o"
-	@echo "... opencv_SIFT_with_flann.i"
-	@echo "... opencv_SIFT_with_flann.s"
+	@echo "... parallel_numa.o"
+	@echo "... parallel_numa.i"
+	@echo "... parallel_numa.s"
 .PHONY : help
 
 

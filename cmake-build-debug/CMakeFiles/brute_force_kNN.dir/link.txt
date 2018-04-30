@@ -1,1 +1,0 @@
-/usr/local/opt/llvm/bin/clang++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/brute_force_kNN.dir/brute_force_kNN.cpp.o CMakeFiles/brute_force_kNN.dir/kNN.cpp.o  -o ../bin/brute_force_kNN -lopencv_core -lopencv_highgui -lopencv_features2d -lopencv_xfeatures2d -lopencv_imgproc -lopencv_imgcodecs -lomp 

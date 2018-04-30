@@ -24,14 +24,11 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/local/opt/llvm/bin/clang++
-
 //LLVM archiver
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/local/Cellar/llvm/5.0.1/bin/llvm-ar
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/local/Cellar/llvm/6.0.0/bin/llvm-ar
 
 //Generate index for LLVM archive
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/local/Cellar/llvm/5.0.1/bin/llvm-ranlib
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/local/Cellar/llvm/6.0.0/bin/llvm-ranlib
 
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -49,14 +46,11 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the compiler during release builds with debug info.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/local/opt/llvm/bin/clang
-
 //LLVM archiver
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/local/Cellar/llvm/5.0.1/bin/llvm-ar
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/local/Cellar/llvm/6.0.0/bin/llvm-ar
 
 //Generate index for LLVM archive
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/local/Cellar/llvm/5.0.1/bin/llvm-ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/local/Cellar/llvm/6.0.0/bin/llvm-ranlib
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -90,7 +84,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
 //Path to a program.
 CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
@@ -220,8 +214,6 @@ CMAKE_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.10.2/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.10.2/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.10.2/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
 CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
@@ -236,8 +228,6 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
 CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
