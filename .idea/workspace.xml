@@ -199,28 +199,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.brute_force_kNN">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
-      <envs />
-    </configuration>
-    <configuration name="brute_force_kNN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel_kNN_with_SIFT" TARGET_NAME="brute_force_kNN" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel_kNN_with_SIFT" RUN_TARGET_NAME="brute_force_kNN">
-      <envs />
-    </configuration>
-    <configuration name="my_SCF_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel_kNN_with_SIFT" TARGET_NAME="my_SCF_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel_kNN_with_SIFT" RUN_TARGET_NAME="my_SCF_test">
-      <envs />
-    </configuration>
-    <configuration name="opencv_SIFT_with_flann" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel_kNN_with_SIFT" TARGET_NAME="opencv_SIFT_with_flann" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel_kNN_with_SIFT" RUN_TARGET_NAME="opencv_SIFT_with_flann">
-      <envs />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.brute_force_kNN" />
-      <item index="2" class="java.lang.String" itemvalue="Application.my_SCF_test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.opencv_SIFT_with_flann" />
+  <component name="RunManager" selected="Application.main">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel_kNN_with_SIFT" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel_kNN_with_SIFT" RUN_TARGET_NAME="main" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.main" />
     </list>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
