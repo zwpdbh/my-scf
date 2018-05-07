@@ -35,3 +35,10 @@ add_executable(
 )
 target_link_libraries(main PUBLIC omp)
 target_compile_options(main PUBLIC "-fopenmp")
+
+add_executable(
+        matrix_multiplication
+        pthread_demo/matrix_multiplication.cpp
+)
+target_link_libraries(matrix_multiplication PUBLIC pthread)
+target_compile_options(matrix_multiplication PUBLIC "-pthread")
