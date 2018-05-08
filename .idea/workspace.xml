@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Parallel_kNN_with_SIFT" targetName="brute_force_kNN" />
-      <config projectName="Parallel_kNN_with_SIFT" targetName="main" />
-      <config projectName="Parallel_kNN_with_SIFT" targetName="my_SCF_test" />
       <config projectName="Parallel_kNN_with_SIFT" targetName="matrix_multiplication" />
       <config projectName="Parallel_kNN_with_SIFT" targetName="opencv_SIFT_with_flann" />
+      <config projectName="Parallel_kNN_with_SIFT" targetName="my_SCF_test" />
+      <config projectName="Parallel_kNN_with_SIFT" targetName="brute_force_kNN" />
+      <config projectName="Parallel_kNN_with_SIFT" targetName="main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -16,9 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c94888-0e74-4c2e-8223-85028f8804fa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pthread_demo/matrix_multiplication.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pthread_demo/matrix_multiplication.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pthread_demo/matrix_multiplication.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,12 +35,12 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="matrix_multiplication.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pthread_demo/matrix_multiplication.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1557">
-              <caret line="173" column="5" lean-forward="true" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+            <state relative-caret-position="313">
+              <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -54,6 +53,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>s_each</find>
+      <find>threadInfo</find>
+      <find>eachInfo</find>
+      <find>job_size</find>
+      <find>Access_info_per_thread</find>
+      <find>thread</find>
+      <find>thr_alloc_fn</find>
+      <find>threadArgs</find>
+      <find>size_for_each_node</find>
+      <find>free</find>
+      <find>remalloc</find>
+      <find>ROWS /</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,11 +94,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="43" />
-    <option name="y" value="28" />
-    <option name="width" value="1395" />
-    <option name="height" value="838" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -97,25 +106,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Parallel_kNN_with_SIFT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parallel-kNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parallel_kNN_with_SIFT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parallel-kNN" type="462c0819:PsiDirectoryNode" />
-              <item name="pthread_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -134,12 +125,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.parallel-kNN">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel_kNN_with_SIFT" RUN_TARGET_NAME="matrix_multiplication" EXPLICIT_BUILD_TARGET_NAME="all" />
+  <component name="RunManager" selected="Application.matrix_multiplication">
     <configuration name="matrix_multiplication" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel_kNN_with_SIFT" TARGET_NAME="matrix_multiplication" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel_kNN_with_SIFT" RUN_TARGET_NAME="matrix_multiplication" />
     <configuration name="parallel-kNN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Parallel_kNN_with_SIFT" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Parallel_kNN_with_SIFT" RUN_TARGET_NAME="main" />
     <list>
-      <item itemvalue="Application.Build All" />
       <item itemvalue="Application.matrix_multiplication" />
       <item itemvalue="Application.parallel-kNN" />
     </list>
@@ -162,12 +151,13 @@
       <workItem from="1525224424606" duration="3000" />
       <workItem from="1525224449249" duration="88000" />
       <workItem from="1525234323176" duration="715000" />
-      <workItem from="1525660739341" duration="8005000" />
+      <workItem from="1525660739341" duration="19882000" />
+      <workItem from="1525745376320" duration="6184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11746000" />
+    <option name="totallyTimeSpent" value="29807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="6" />
@@ -179,7 +169,7 @@
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32837838" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32837838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -195,25 +185,25 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="CMake" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="5" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" weight="0.23032904" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="right" id="LuaJ" order="0" />
+      <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32884097" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="CMake" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32884097" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -225,18 +215,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>s_in_each_node % (NUM_THREADS / NUM_NODES)</expression-string>
+        <expression-string>NUM_THREADS</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>s % NUM_NODES</expression-string>
+        <expression-string>threadArgs[i].job_size</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>node_index * (NUM_THREADS / NUM_NODES);</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i / (NUM_THREADS/NUM_NODES)</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -246,13 +251,33 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>s_each</expression-string>
+        <expression-string>185 / 23</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s_in_each_node</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>184 / 23</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pthread_demo/matrix_multiplication.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -379,13 +404,6 @@
     <entry file="file://$PROJECT_DIR$/my_SCF_test.cpp" />
     <entry file="file://$PROJECT_DIR$/opencv_SIFT_with_flann.cpp" />
     <entry file="file://$PROJECT_DIR$/brute_force_kNN.cpp" />
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kNN.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -396,27 +414,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pthread_demo/pthread_demo01.cpp">
+    <entry file="file://$PROJECT_DIR$/pthread_demo/pthread_demo01.cpp" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="e#414#434#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="236">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/parallel_numa.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="256">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pthread_demo/matrix_multiplication.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1557">
-          <caret line="173" column="5" lean-forward="true" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+        <state relative-caret-position="313">
+          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>
