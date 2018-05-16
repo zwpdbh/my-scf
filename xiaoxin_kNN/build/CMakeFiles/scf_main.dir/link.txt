@@ -1,0 +1,1 @@
+/usr/local/bin/g++-7   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/scf_main.dir/main.cpp.o CMakeFiles/scf_main.dir/csv_parser.cpp.o CMakeFiles/scf_main.dir/sdc_index.cpp.o  -o ../bin/scf_main  -L/usr/local/lib/gcc/7 -Wl,-rpath,/usr/local/lib/gcc/7 -lflann -lomp 

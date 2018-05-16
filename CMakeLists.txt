@@ -7,7 +7,7 @@ set(CMAKE_CXX_COMPILER "/usr/local/bin/g++-7")
 set(CMAKE_CXX_STANDARD 11)
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-project(Parallel_kNN_with_SIFT)
+project(parallel-KNN)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
@@ -42,3 +42,14 @@ add_executable(
 )
 target_link_libraries(matrix_multiplication PUBLIC pthread)
 target_compile_options(matrix_multiplication PUBLIC "-pthread")
+
+
+add_executable(
+        openmp_matrix_multiplication
+        openmp_demo/openmp_matrix_multiplication.cpp
+)
+target_link_libraries(openmp_matrix_multiplication PUBLIC omp)
+target_compile_options(openmp_matrix_multiplication PUBLIC "-fopenmp")
+
+
+add_subdirectory(xiaoxin_kNN)

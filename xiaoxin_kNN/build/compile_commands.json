@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/build",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/scf_main.dir/main.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/main.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/main.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/build",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/scf_main.dir/csv_parser.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/csv_parser.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/csv_parser.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/build",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/scf_main.dir/sdc_index.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/sdc_index.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/sdc_index.cpp"
+}
+]

@@ -1,0 +1,4 @@
+"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/bin/gcc-7 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++-7 -G "CodeBlocks - Unix Makefiles" /Users/zw/code/C_and_C++_Projects/parallel-kNN
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug

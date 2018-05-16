@@ -1,0 +1,3 @@
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/build/CMakeFiles/rebuild_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/build/CMakeFiles/edit_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/build/CMakeFiles/scf_main.dir

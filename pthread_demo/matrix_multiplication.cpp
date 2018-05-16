@@ -14,8 +14,8 @@ using namespace std;
 
 int ROWS = 12;
 int COLS = 11;
-int NUM_THREADS = 8;
-int NUM_NODES = 8;
+int NUM_THREADS = 4;
+int NUM_NODES = 4;
 
 long s_in_each_node = 0;
 float** mx = nullptr;
@@ -42,6 +42,7 @@ void check_mx();
 void check_w();
 void construct_barrier(pInfo* pthreads);
 
+pthread_t main_thread;
 
 int main(int argc, char* argv[]) {
 
@@ -54,6 +55,8 @@ int main(int argc, char* argv[]) {
     pthread_t* thread; // array of pthread_t, for catching each created thread
     int err = 0;
 
+    main_thread = pthread_self();
+    printf("main thread is %lu\n", main_thread);
 
     /**Allocate m by n matrix with the shape NUM_NODES * some right size*/
     for (int i = 0; i < NUM_NODES; i++) {
@@ -99,39 +102,39 @@ int main(int argc, char* argv[]) {
     printf("\n");
     check_mx();
 
-    /**do the multiplication with a vector*/
-    v = (float*)emalloc(sizeof(float) * COLS);
-    w = (float*)emalloc(sizeof(float) * ROWS);
-    for (int i = 0; i < COLS; i++) {
-        v[i] = 1;
-    }
-    for (int i = 0; i < ROWS; i++) {
-        w[i] = 0;
-    }
-
-    // distribute multiplication task on different threads
-    for (int i = 0; i < NUM_THREADS; i++) {
-        if (ROWS / NUM_THREADS == 0) {
-            pthreads[i].from = i * 1;
-            pthreads[i].job_size = 1;
-        } else {
-            pthreads[i].from  = i * (ROWS / NUM_THREADS);
-            pthreads[i].job_size = ROWS / NUM_THREADS;
-        }
-
-        if (i == NUM_THREADS - 1) {
-            pthreads[i].job_size += (ROWS % NUM_THREADS);
-        }
-        err = pthread_create(&pthreads[i].thread, NULL, thr_multiply_fn, (void*)&pthreads[i]);
-        if (err != 0) {
-            printf("error during thread creation, exit...\n");
-            exit(-1);
-        }
-    }
-
-    /**build barrier*/
-    construct_barrier(pthreads);
-    check_w();
+//    /**do the multiplication with a vector*/
+//    v = (float*)emalloc(sizeof(float) * COLS);
+//    w = (float*)emalloc(sizeof(float) * ROWS);
+//    for (int i = 0; i < COLS; i++) {
+//        v[i] = 1;
+//    }
+//    for (int i = 0; i < ROWS; i++) {
+//        w[i] = 0;
+//    }
+//
+//    // distribute multiplication task on different threads
+//    for (int i = 0; i < NUM_THREADS; i++) {
+//        if (ROWS / NUM_THREADS == 0) {
+//            pthreads[i].from = i * 1;
+//            pthreads[i].job_size = 1;
+//        } else {
+//            pthreads[i].from  = i * (ROWS / NUM_THREADS);
+//            pthreads[i].job_size = ROWS / NUM_THREADS;
+//        }
+//
+//        if (i == NUM_THREADS - 1) {
+//            pthreads[i].job_size += (ROWS % NUM_THREADS);
+//        }
+//        err = pthread_create(&pthreads[i].thread, NULL, thr_multiply_fn, (void*)&pthreads[i]);
+//        if (err != 0) {
+//            printf("error during thread creation, exit...\n");
+//            exit(-1);
+//        }
+//    }
+//
+//    /**build barrier*/
+//    construct_barrier(pthreads);
+//    check_w();
 
     for (int i = 0; i < NUM_NODES; i++) {
         free(mx[i]);
@@ -224,6 +227,9 @@ void construct_barrier(pInfo* pthreads) {
     int err;
     void* status;
     for (int i = 0; i < NUM_THREADS; i++) {
+        if (pthreads[i].thread == main_thread) {
+            printf("one of the child thread is main thread !!!\n");
+        }
         err = pthread_join(pthreads[i].thread, &status);
         if (err) {
             printf("error, return code from pthread_join() is %d\n", *(int*)status);

@@ -1,0 +1,8 @@
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/CMakeFiles/openmp_matrix_multiplication.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/CMakeFiles/matrix_multiplication.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/CMakeFiles/main.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/xiaoxin_kNN/CMakeFiles/rebuild_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/xiaoxin_kNN/CMakeFiles/edit_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/xiaoxin_kNN/CMakeFiles/scf_main.dir

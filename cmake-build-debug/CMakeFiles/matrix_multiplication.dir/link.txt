@@ -1,0 +1,1 @@
+/usr/local/bin/g++-7  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/matrix_multiplication.dir/pthread_demo/matrix_multiplication.cpp.o  -o ../bin/matrix_multiplication -lpthread 
