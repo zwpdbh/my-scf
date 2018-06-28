@@ -17,74 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c94888-0e74-4c2e-8223-85028f8804fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/matrix_multiplication" beforeDir="false" afterPath="$PROJECT_DIR$/bin/matrix_multiplication" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/openmp_matrix_multiplication" beforeDir="false" afterPath="$PROJECT_DIR$/bin/openmp_matrix_multiplication" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/parallel_numa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/Dataset.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/Dataset.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/kNN.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/kNN.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/main.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/main.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/Dataset.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/kNN.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/parallel_numa.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parallel_numa.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_multiplication.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_multiplication.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmp_matrix_multiplication.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmp_matrix_multiplication.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/xiaoxin_kNN/CMakeFiles/scf_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/xiaoxin_kNN/CMakeFiles/scf_main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/xiaoxin_kNN/CMakeFiles/scf_main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/xiaoxin_kNN/CMakeFiles/scf_main.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/xiaoxin_kNN/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/xiaoxin_kNN/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoxin_kNN/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoxin_kNN/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoxin_kNN/bin/scf_main" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoxin_kNN/bin/scf_main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoxin_kNN/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoxin_kNN/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoxin_kNN/build/CMakeFiles/scf_main.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoxin_kNN/build/CMakeFiles/scf_main.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoxin_kNN/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoxin_kNN/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoxin_kNN/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoxin_kNN/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoxin_kNN/sdc_index.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoxin_kNN/sdc_index.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="89c94888-0e74-4c2e-8223-85028f8804fa" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+            <state relative-caret-position="-1042">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -132,17 +65,20 @@
       <file leaf-file-name="kNN.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kNN.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="272">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding>
+                <element signature="e#51#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dataset.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dataset.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dataset.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="118">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -154,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/Dataset.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -329,12 +265,12 @@
       <workItem from="1529736238977" duration="1919000" />
       <workItem from="1529753683658" duration="652000" />
       <workItem from="1529790685968" duration="407000" />
-      <workItem from="1529888027885" duration="3602000" />
+      <workItem from="1529888027885" duration="3841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53189000" />
+    <option name="totallyTimeSpent" value="53428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="0" />
@@ -697,34 +633,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kNN.hpp">
+    <entry file="file://$PROJECT_DIR$/Dataset.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="118">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dataset.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset.cpp">
+    <entry file="file://$PROJECT_DIR$/kNN.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="272">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#51#70#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1042">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
