@@ -2,13 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="parallel-KNN" targetName="brute_force_kNN" />
-      <config projectName="parallel-KNN" targetName="main" />
-      <config projectName="parallel-KNN" targetName="opencv_SIFT_with_flann" />
-      <config projectName="parallel-KNN" targetName="scf_main" />
-      <config projectName="parallel-KNN" targetName="openmp_matrix_multiplication" />
-      <config projectName="parallel-KNN" targetName="matrix_multiplication" />
-      <config projectName="parallel-KNN" targetName="my_SCF_test" />
+      <config projectName="Project" targetName="opencv_SIFT_with_flann" />
+      <config projectName="Project" targetName="my_SCF_test" />
+      <config projectName="Project" targetName="brute_force_kNN" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,7 +22,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
     <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
@@ -35,20 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1042">
-              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaoxin_kNN/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+            <state relative-caret-position="254">
+              <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+              <folding>
+                <element signature="e#42#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,11 +51,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="kNN.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kNN.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
                 <element signature="e#51#70#0" expanded="true" />
               </folding>
@@ -78,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/Dataset.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="118">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -91,18 +89,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
               <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaoxin_kNN/main.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-              <folding>
-                <element signature="e#99#117#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +122,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,10 +139,10 @@
         <option value="$PROJECT_DIR$/xiaoxin_kNN/sdc_index.cpp" />
         <option value="$PROJECT_DIR$/xiaoxin_kNN/main.cpp" />
         <option value="$PROJECT_DIR$/xiaoxin_kNN/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/xiaoxin_kNN/main.h" />
         <option value="$PROJECT_DIR$/Dataset.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -187,8 +173,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="parallel-KNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parallel-kNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="parallel-kNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-kNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parallel-kNN" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,13 +210,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.parallel-kNN">
-    <configuration name="matrix_multiplication" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel-KNN" TARGET_NAME="matrix_multiplication" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel-KNN" RUN_TARGET_NAME="scf_main" />
-    <configuration name="openmp_matrix_multiplication" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel-KNN" TARGET_NAME="openmp_matrix_multiplication" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel-KNN" RUN_TARGET_NAME="scf_main" />
     <configuration name="parallel-kNN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel-KNN" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel-KNN" RUN_TARGET_NAME="main" />
     <configuration name="scf_main" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="5 16 32 0 0 features/_DSC0%s.jpg features/gps-sift-small.csv " PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel-KNN" TARGET_NAME="scf_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel-KNN" RUN_TARGET_NAME="scf_main" />
     <list>
-      <item itemvalue="Application.matrix_multiplication" />
-      <item itemvalue="Application.openmp_matrix_multiplication" />
       <item itemvalue="Application.scf_main" />
       <item itemvalue="Application.parallel-kNN" />
     </list>
@@ -265,21 +252,21 @@
       <workItem from="1529736238977" duration="1919000" />
       <workItem from="1529753683658" duration="652000" />
       <workItem from="1529790685968" duration="407000" />
-      <workItem from="1529888027885" duration="3841000" />
+      <workItem from="1529888027885" duration="4247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53428000" />
+    <option name="totallyTimeSpent" value="53834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2769556" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" order="7" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.4989429" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010571" side_tool="true" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49964765" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34864864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -295,7 +282,6 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32702702" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="CMake" order="1" />
@@ -581,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaoxin_kNN/sdc_index.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -622,7 +601,7 @@
     <entry file="file://$PROJECT_DIR$/xiaoxin_kNN/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
-          <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -636,7 +615,7 @@
     <entry file="file://$PROJECT_DIR$/Dataset.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -653,7 +632,7 @@
     <entry file="file://$PROJECT_DIR$/kNN.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="e#51#70#0" expanded="true" />
           </folding>
@@ -662,8 +641,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1042">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="254">
+          <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+          <folding>
+            <element signature="e#42#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>

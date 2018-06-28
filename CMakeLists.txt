@@ -41,22 +41,3 @@ target_compile_options(main PUBLIC "-fopenmp")
 
 
 
-add_executable(
-        matrix_multiplication
-        pthread_demo/matrix_multiplication.cpp
-)
-target_link_libraries(matrix_multiplication PUBLIC pthread)
-target_compile_options(matrix_multiplication PUBLIC "-pthread")
-
-
-
-add_executable(
-        openmp_matrix_multiplication
-        openmp_demo/openmp_matrix_multiplication.cpp
-)
-target_link_libraries(openmp_matrix_multiplication PUBLIC omp)
-target_compile_options(openmp_matrix_multiplication PUBLIC "-fopenmp")
-
-
-
-add_subdirectory(xiaoxin_kNN)

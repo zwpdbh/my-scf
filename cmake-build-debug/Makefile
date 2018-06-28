@@ -48,10 +48,10 @@ RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/18
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/parallel-kNN
+CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/My-SCF
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/My-SCF/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/CMakeFiles /Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/My-SCF/cmake-build-debug/CMakeFiles /Users/zw/code/C_and_C++_Projects/My-SCF/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/parallel-kNN/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/My-SCF/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,32 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named openmp_matrix_multiplication
-
-# Build rule for target.
-openmp_matrix_multiplication: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 openmp_matrix_multiplication
-.PHONY : openmp_matrix_multiplication
-
-# fast build rule for target.
-openmp_matrix_multiplication/fast:
-	$(MAKE) -f CMakeFiles/openmp_matrix_multiplication.dir/build.make CMakeFiles/openmp_matrix_multiplication.dir/build
-.PHONY : openmp_matrix_multiplication/fast
-
-#=============================================================================
-# Target rules for targets named matrix_multiplication
-
-# Build rule for target.
-matrix_multiplication: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 matrix_multiplication
-.PHONY : matrix_multiplication
-
-# fast build rule for target.
-matrix_multiplication/fast:
-	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/build
-.PHONY : matrix_multiplication/fast
-
-#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -148,19 +122,6 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named scf_main
-
-# Build rule for target.
-scf_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 scf_main
-.PHONY : scf_main
-
-# fast build rule for target.
-scf_main/fast:
-	$(MAKE) -f xiaoxin_kNN/CMakeFiles/scf_main.dir/build.make xiaoxin_kNN/CMakeFiles/scf_main.dir/build
-.PHONY : scf_main/fast
 
 Dataset.o: Dataset.cpp.o
 
@@ -243,60 +204,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-openmp_demo/openmp_matrix_multiplication.o: openmp_demo/openmp_matrix_multiplication.cpp.o
-
-.PHONY : openmp_demo/openmp_matrix_multiplication.o
-
-# target to build an object file
-openmp_demo/openmp_matrix_multiplication.cpp.o:
-	$(MAKE) -f CMakeFiles/openmp_matrix_multiplication.dir/build.make CMakeFiles/openmp_matrix_multiplication.dir/openmp_demo/openmp_matrix_multiplication.cpp.o
-.PHONY : openmp_demo/openmp_matrix_multiplication.cpp.o
-
-openmp_demo/openmp_matrix_multiplication.i: openmp_demo/openmp_matrix_multiplication.cpp.i
-
-.PHONY : openmp_demo/openmp_matrix_multiplication.i
-
-# target to preprocess a source file
-openmp_demo/openmp_matrix_multiplication.cpp.i:
-	$(MAKE) -f CMakeFiles/openmp_matrix_multiplication.dir/build.make CMakeFiles/openmp_matrix_multiplication.dir/openmp_demo/openmp_matrix_multiplication.cpp.i
-.PHONY : openmp_demo/openmp_matrix_multiplication.cpp.i
-
-openmp_demo/openmp_matrix_multiplication.s: openmp_demo/openmp_matrix_multiplication.cpp.s
-
-.PHONY : openmp_demo/openmp_matrix_multiplication.s
-
-# target to generate assembly for a file
-openmp_demo/openmp_matrix_multiplication.cpp.s:
-	$(MAKE) -f CMakeFiles/openmp_matrix_multiplication.dir/build.make CMakeFiles/openmp_matrix_multiplication.dir/openmp_demo/openmp_matrix_multiplication.cpp.s
-.PHONY : openmp_demo/openmp_matrix_multiplication.cpp.s
-
-pthread_demo/matrix_multiplication.o: pthread_demo/matrix_multiplication.cpp.o
-
-.PHONY : pthread_demo/matrix_multiplication.o
-
-# target to build an object file
-pthread_demo/matrix_multiplication.cpp.o:
-	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/pthread_demo/matrix_multiplication.cpp.o
-.PHONY : pthread_demo/matrix_multiplication.cpp.o
-
-pthread_demo/matrix_multiplication.i: pthread_demo/matrix_multiplication.cpp.i
-
-.PHONY : pthread_demo/matrix_multiplication.i
-
-# target to preprocess a source file
-pthread_demo/matrix_multiplication.cpp.i:
-	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/pthread_demo/matrix_multiplication.cpp.i
-.PHONY : pthread_demo/matrix_multiplication.cpp.i
-
-pthread_demo/matrix_multiplication.s: pthread_demo/matrix_multiplication.cpp.s
-
-.PHONY : pthread_demo/matrix_multiplication.s
-
-# target to generate assembly for a file
-pthread_demo/matrix_multiplication.cpp.s:
-	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/pthread_demo/matrix_multiplication.cpp.s
-.PHONY : pthread_demo/matrix_multiplication.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -305,10 +212,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... openmp_matrix_multiplication"
-	@echo "... matrix_multiplication"
 	@echo "... main"
-	@echo "... scf_main"
 	@echo "... Dataset.o"
 	@echo "... Dataset.i"
 	@echo "... Dataset.s"
@@ -318,12 +222,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... openmp_demo/openmp_matrix_multiplication.o"
-	@echo "... openmp_demo/openmp_matrix_multiplication.i"
-	@echo "... openmp_demo/openmp_matrix_multiplication.s"
-	@echo "... pthread_demo/matrix_multiplication.o"
-	@echo "... pthread_demo/matrix_multiplication.i"
-	@echo "... pthread_demo/matrix_multiplication.s"
 .PHONY : help
 
 

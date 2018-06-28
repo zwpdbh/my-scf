@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zw/code/C_and_C++_Projects/parallel-kNN
+# Install script for directory: /Users/zw/code/C_and_C++_Projects/My-SCF
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

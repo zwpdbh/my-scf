@@ -1,1 +1,0 @@
-/usr/local/bin/g++-7  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/openmp_matrix_multiplication.dir/openmp_demo/openmp_matrix_multiplication.cpp.o  -o ../bin/openmp_matrix_multiplication -lomp 
