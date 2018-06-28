@@ -67,7 +67,9 @@ void scfDemo() {
 
     vector<float>         q = {0, 0, 0, 0};
     vector<vector<float>> queryFeatures;
+
     queryFeatures.push_back(q);
+
     cout << "The features are:" << endl;
     for (int i = 0; i < features.size(); i++) {
         cout << features[i] << endl;

@@ -2,22 +2,23 @@ cmake_minimum_required(VERSION 3.5)
 # This must be done before any language is set (ie before any project() or enable_language() command).
 #set(CMAKE_C_COMPILER "/usr/local/opt/llvm/bin/clang")
 #set(CMAKE_CXX_COMPILER "/usr/local/opt/llvm/bin/clang++")
+set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_C_COMPILER "/usr/local/bin/gcc-7")
 set(CMAKE_CXX_COMPILER "/usr/local/bin/g++-7")
-set(CMAKE_CXX_STANDARD 11)
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+
 
 project(parallel-KNN)
 
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
 
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 set(LIBRARY_OUTPUT_PATH  ${CMAKE_BINARY_DIR})
 
 # header file search path
-include_directories("/usr/local/include/" )
+include_directories("/usr/local/include/")
 include_directories("/usr/include")
 #include_directories("/usr/local/Cellar/glib/2.54.3/include/glib-2.0/")
 #include_directories("/usr/local/Cellar/glib/2.54.3/lib/glib-2.0/include/")
@@ -25,6 +26,7 @@ include_directories("/usr/include")
 link_directories("/usr/local/lib")
 link_directories("/usr/lib")
 
+# ./bin/main
 add_executable(
         main
         main.cpp
@@ -36,6 +38,9 @@ add_executable(
 target_link_libraries(main PUBLIC omp)
 target_compile_options(main PUBLIC "-fopenmp")
 
+
+
+
 add_executable(
         matrix_multiplication
         pthread_demo/matrix_multiplication.cpp
@@ -44,12 +49,14 @@ target_link_libraries(matrix_multiplication PUBLIC pthread)
 target_compile_options(matrix_multiplication PUBLIC "-pthread")
 
 
+
 add_executable(
         openmp_matrix_multiplication
         openmp_demo/openmp_matrix_multiplication.cpp
 )
 target_link_libraries(openmp_matrix_multiplication PUBLIC omp)
 target_compile_options(openmp_matrix_multiplication PUBLIC "-fopenmp")
+
 
 
 add_subdirectory(xiaoxin_kNN)

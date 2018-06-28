@@ -1,3 +1,8 @@
-/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build/CMakeFiles/rebuild_cache.dir
-/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build/CMakeFiles/edit_cache.dir
-/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build/CMakeFiles/parallel_numa.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles/rebuild_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles/edit_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles/openmp_matrix_multiplication.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles/matrix_multiplication.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles/main.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/xiaoxin_kNN/CMakeFiles/rebuild_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/xiaoxin_kNN/CMakeFiles/edit_cache.dir
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/xiaoxin_kNN/CMakeFiles/scf_main.dir

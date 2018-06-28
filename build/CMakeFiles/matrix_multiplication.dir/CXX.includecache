@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C_and_C++_Projects/parallel-kNN/pthread_demo/matrix_multiplication.cpp
+pthread.h
+-
+iostream
+-
+chrono
+-
+sched.h
+-
+sys/types.h
+-
+unistd.h
+-
+sched.h
+-
+

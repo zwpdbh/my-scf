@@ -141,6 +141,7 @@ private:
 
         /**This is where IMG allocate data*/
         int size = this->rows * this->cols;
+        /**allocate memory in parallel using OpenMP*/
         this->data = new float[size];
         in.read((char *) this->data, size * sizeof(float));
         in.close();

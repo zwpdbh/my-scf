@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.10.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT
+CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/parallel-kNN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build
+CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/parallel-kNN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build/CMakeFiles /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles /Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named parallel_numa
+# Target rules for targets named openmp_matrix_multiplication
 
 # Build rule for target.
-parallel_numa: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 parallel_numa
-.PHONY : parallel_numa
+openmp_matrix_multiplication: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 openmp_matrix_multiplication
+.PHONY : openmp_matrix_multiplication
 
 # fast build rule for target.
-parallel_numa/fast:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/build
-.PHONY : parallel_numa/fast
+openmp_matrix_multiplication/fast:
+	$(MAKE) -f CMakeFiles/openmp_matrix_multiplication.dir/build.make CMakeFiles/openmp_matrix_multiplication.dir/build
+.PHONY : openmp_matrix_multiplication/fast
+
+#=============================================================================
+# Target rules for targets named matrix_multiplication
+
+# Build rule for target.
+matrix_multiplication: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 matrix_multiplication
+.PHONY : matrix_multiplication
+
+# fast build rule for target.
+matrix_multiplication/fast:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/build
+.PHONY : matrix_multiplication/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named scf_main
+
+# Build rule for target.
+scf_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scf_main
+.PHONY : scf_main
+
+# fast build rule for target.
+scf_main/fast:
+	$(MAKE) -f xiaoxin_kNN/CMakeFiles/scf_main.dir/build.make xiaoxin_kNN/CMakeFiles/scf_main.dir/build
+.PHONY : scf_main/fast
 
 Dataset.o: Dataset.cpp.o
 
@@ -129,7 +168,7 @@ Dataset.o: Dataset.cpp.o
 
 # target to build an object file
 Dataset.cpp.o:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/Dataset.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Dataset.cpp.o
 .PHONY : Dataset.cpp.o
 
 Dataset.i: Dataset.cpp.i
@@ -138,7 +177,7 @@ Dataset.i: Dataset.cpp.i
 
 # target to preprocess a source file
 Dataset.cpp.i:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/Dataset.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Dataset.cpp.i
 .PHONY : Dataset.cpp.i
 
 Dataset.s: Dataset.cpp.s
@@ -147,7 +186,7 @@ Dataset.s: Dataset.cpp.s
 
 # target to generate assembly for a file
 Dataset.cpp.s:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/Dataset.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Dataset.cpp.s
 .PHONY : Dataset.cpp.s
 
 kNN.o: kNN.cpp.o
@@ -156,7 +195,7 @@ kNN.o: kNN.cpp.o
 
 # target to build an object file
 kNN.cpp.o:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/kNN.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kNN.cpp.o
 .PHONY : kNN.cpp.o
 
 kNN.i: kNN.cpp.i
@@ -165,7 +204,7 @@ kNN.i: kNN.cpp.i
 
 # target to preprocess a source file
 kNN.cpp.i:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/kNN.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kNN.cpp.i
 .PHONY : kNN.cpp.i
 
 kNN.s: kNN.cpp.s
@@ -174,35 +213,89 @@ kNN.s: kNN.cpp.s
 
 # target to generate assembly for a file
 kNN.cpp.s:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/kNN.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kNN.cpp.s
 .PHONY : kNN.cpp.s
 
-parallel_numa.o: parallel_numa.cpp.o
+main.o: main.cpp.o
 
-.PHONY : parallel_numa.o
+.PHONY : main.o
 
 # target to build an object file
-parallel_numa.cpp.o:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/parallel_numa.cpp.o
-.PHONY : parallel_numa.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-parallel_numa.i: parallel_numa.cpp.i
+main.i: main.cpp.i
 
-.PHONY : parallel_numa.i
+.PHONY : main.i
 
 # target to preprocess a source file
-parallel_numa.cpp.i:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/parallel_numa.cpp.i
-.PHONY : parallel_numa.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-parallel_numa.s: parallel_numa.cpp.s
+main.s: main.cpp.s
 
-.PHONY : parallel_numa.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-parallel_numa.cpp.s:
-	$(MAKE) -f CMakeFiles/parallel_numa.dir/build.make CMakeFiles/parallel_numa.dir/parallel_numa.cpp.s
-.PHONY : parallel_numa.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+openmp_demo/openmp_matrix_multiplication.o: openmp_demo/openmp_matrix_multiplication.cpp.o
+
+.PHONY : openmp_demo/openmp_matrix_multiplication.o
+
+# target to build an object file
+openmp_demo/openmp_matrix_multiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/openmp_matrix_multiplication.dir/build.make CMakeFiles/openmp_matrix_multiplication.dir/openmp_demo/openmp_matrix_multiplication.cpp.o
+.PHONY : openmp_demo/openmp_matrix_multiplication.cpp.o
+
+openmp_demo/openmp_matrix_multiplication.i: openmp_demo/openmp_matrix_multiplication.cpp.i
+
+.PHONY : openmp_demo/openmp_matrix_multiplication.i
+
+# target to preprocess a source file
+openmp_demo/openmp_matrix_multiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/openmp_matrix_multiplication.dir/build.make CMakeFiles/openmp_matrix_multiplication.dir/openmp_demo/openmp_matrix_multiplication.cpp.i
+.PHONY : openmp_demo/openmp_matrix_multiplication.cpp.i
+
+openmp_demo/openmp_matrix_multiplication.s: openmp_demo/openmp_matrix_multiplication.cpp.s
+
+.PHONY : openmp_demo/openmp_matrix_multiplication.s
+
+# target to generate assembly for a file
+openmp_demo/openmp_matrix_multiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/openmp_matrix_multiplication.dir/build.make CMakeFiles/openmp_matrix_multiplication.dir/openmp_demo/openmp_matrix_multiplication.cpp.s
+.PHONY : openmp_demo/openmp_matrix_multiplication.cpp.s
+
+pthread_demo/matrix_multiplication.o: pthread_demo/matrix_multiplication.cpp.o
+
+.PHONY : pthread_demo/matrix_multiplication.o
+
+# target to build an object file
+pthread_demo/matrix_multiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/pthread_demo/matrix_multiplication.cpp.o
+.PHONY : pthread_demo/matrix_multiplication.cpp.o
+
+pthread_demo/matrix_multiplication.i: pthread_demo/matrix_multiplication.cpp.i
+
+.PHONY : pthread_demo/matrix_multiplication.i
+
+# target to preprocess a source file
+pthread_demo/matrix_multiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/pthread_demo/matrix_multiplication.cpp.i
+.PHONY : pthread_demo/matrix_multiplication.cpp.i
+
+pthread_demo/matrix_multiplication.s: pthread_demo/matrix_multiplication.cpp.s
+
+.PHONY : pthread_demo/matrix_multiplication.s
+
+# target to generate assembly for a file
+pthread_demo/matrix_multiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/pthread_demo/matrix_multiplication.cpp.s
+.PHONY : pthread_demo/matrix_multiplication.cpp.s
 
 # Help Target
 help:
@@ -212,16 +305,25 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... parallel_numa"
+	@echo "... openmp_matrix_multiplication"
+	@echo "... matrix_multiplication"
+	@echo "... main"
+	@echo "... scf_main"
 	@echo "... Dataset.o"
 	@echo "... Dataset.i"
 	@echo "... Dataset.s"
 	@echo "... kNN.o"
 	@echo "... kNN.i"
 	@echo "... kNN.s"
-	@echo "... parallel_numa.o"
-	@echo "... parallel_numa.i"
-	@echo "... parallel_numa.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... openmp_demo/openmp_matrix_multiplication.o"
+	@echo "... openmp_demo/openmp_matrix_multiplication.i"
+	@echo "... openmp_demo/openmp_matrix_multiplication.s"
+	@echo "... pthread_demo/matrix_multiplication.o"
+	@echo "... pthread_demo/matrix_multiplication.i"
+	@echo "... pthread_demo/matrix_multiplication.s"
 .PHONY : help
 
 

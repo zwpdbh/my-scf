@@ -8,6 +8,7 @@ using namespace std;
 
 Dataset::Dataset(const std::string& descriptors01,
 		 const std::string& descriptors02) {
+
     ifstream referencefs(descriptors01);
     ifstream queryfs(descriptors02);
 

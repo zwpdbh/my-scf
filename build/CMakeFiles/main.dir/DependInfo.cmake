@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/zw/code/C_and_C++_Projects/parallel-kNN/kNN.cpp" "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles/main.dir/kNN.cpp.o"
   "/Users/zw/code/C_and_C++_Projects/parallel-kNN/main.cpp" "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/CMakeFiles/main.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -20,7 +20,7 @@ link_directories("/usr/local/lib" "/usr/lib")
 link_directories("/usr/local/lib/gcc/7")
 
 
-# ./bin/scf_main sdc 5 16 32 0 0 features/_DSC0%s.jpg features/gps-sift-small.csv
+# ./bin/scf_main 5 16 32 0 0 features/_DSC0%s.jpg features/gps-sift-small.csv
 add_executable(
         scf_main
         main.cpp

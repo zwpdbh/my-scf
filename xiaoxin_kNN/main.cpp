@@ -13,19 +13,19 @@ inline void RECORD_PMC() {
     }
 }
 
-/**./bin/scf_main 5 16 32 0 0 features/_DSC0%s.jpg features/gps-sift-small.csv*/
+/**./bin/scf_main 5 16 32 0 0 ../features/_DSC0%s.jpg features/gps-sift-small.csv*/
 int main(int argc, char **argv) {
     IMG::ALG = 0;   // use scf algorithm
     IMG::REP = atoi(argv[1]);
     SDCIndex::N_SUBSPACES_ = atoi(argv[2]);
     SDCIndex::N_CLUSTERS_ = atoi(argv[3]);
-    SDCIndex::scale_d = 0;
-    SDCIndex::scale_u = 0;
+    SDCIndex::scale_d = atoi(argv[4]);
+    SDCIndex::scale_u = atoi(argv[5]);
     char *format = argv[6];
     char *csv_file = argv[7];
 
-//    printf("format is: %s\n", format);
-//    printf("csv_file is: %s\n", csv_file);
+    printf("format is: %s\n", format);
+    printf("csv_file is: %s\n", csv_file);
 
     vector<IMG *> imgs;
     TIMER_T runtime[4];

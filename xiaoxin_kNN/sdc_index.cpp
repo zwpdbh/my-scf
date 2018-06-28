@@ -94,6 +94,8 @@ void SDCIndex::buildIndex(int n_subspaces, int n_clusters_, int iter_) {
      * I could use pthread to do this in parallel
      * */
     for (int i = 0; i < n_subspaces; ++i) {
+        // If I want to use numa, this could be the place
+
         /**mat holds the data for each subspace, its shape is number of features in the
          * first image times (128/n_subspaces)*/
         Matrix<float> mat(ddata + dimen * i, drows, dimen, dcols * sizeof(float));

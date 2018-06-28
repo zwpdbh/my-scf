@@ -1,17 +1,42 @@
 [
 {
-  "directory": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build",
-  "command": "/usr/local/opt/llvm/bin/clang++   -I/usr/local/include   -std=c++11   -fopenmp -o CMakeFiles/parallel_numa.dir/parallel_numa.cpp.o -c /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/parallel_numa.cpp",
-  "file": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/parallel_numa.cpp"
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/openmp_matrix_multiplication.dir/openmp_demo/openmp_matrix_multiplication.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/openmp_demo/openmp_matrix_multiplication.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/openmp_demo/openmp_matrix_multiplication.cpp"
 },
 {
-  "directory": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build",
-  "command": "/usr/local/opt/llvm/bin/clang++   -I/usr/local/include   -std=c++11   -fopenmp -o CMakeFiles/parallel_numa.dir/kNN.cpp.o -c /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/kNN.cpp",
-  "file": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/kNN.cpp"
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -pthread -std=gnu++11 -o CMakeFiles/matrix_multiplication.dir/pthread_demo/matrix_multiplication.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/pthread_demo/matrix_multiplication.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/pthread_demo/matrix_multiplication.cpp"
 },
 {
-  "directory": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/build",
-  "command": "/usr/local/opt/llvm/bin/clang++   -I/usr/local/include   -std=c++11   -fopenmp -o CMakeFiles/parallel_numa.dir/Dataset.cpp.o -c /Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/Dataset.cpp",
-  "file": "/Users/zw/code/C_and_C++_Projects/Parallel_kNN_with_SIFT/Dataset.cpp"
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/main.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/main.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/main.dir/kNN.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/kNN.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/kNN.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/main.dir/Dataset.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/Dataset.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/Dataset.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/xiaoxin_kNN",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/scf_main.dir/main.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/main.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/main.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/xiaoxin_kNN",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/scf_main.dir/csv_parser.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/csv_parser.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/csv_parser.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/build/xiaoxin_kNN",
+  "command": "/usr/local/bin/g++-7   -I/usr/local/include    -fopenmp -std=gnu++11 -o CMakeFiles/scf_main.dir/sdc_index.cpp.o -c /Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/sdc_index.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/parallel-kNN/xiaoxin_kNN/sdc_index.cpp"
 }
 ]
